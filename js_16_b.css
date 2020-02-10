@@ -1,0 +1,43 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#bracket{
+    height: 59%;
+    width:60.1%;
+    background-color: gold;
+    top:40.19%;
+    left: 21%;
+    position: relative;
+    position: absolute;
+}
+#id1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+}
+#nav{
+    border:1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    height:40%;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left:21%;
+    justify-content: space-around;
+}
+.navElements{
+    width: 45%;
+    /* border:1px solid black; */
+    
+}
+#time{
+    width: 70%;
+    margin-left: 25%;
+}
+#bestTime{
+    color: green;
+}
